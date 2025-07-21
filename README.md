@@ -99,7 +99,7 @@ Each notebook is a self-contained script for a specific task. Open them in a Jup
 
 *   **`sam-masks.ipynb`**: Uses the powerful Segment Anything Model (SAM) to generate instance masks for all objects in the image, which are then classified by color into leaf or worm categories.
 
-*   **`kmeans-lab-5.ipynb`**: Segments images by clustering pixel colors in the perceptually uniform CIELAB color space. This is a fast and effective unsupervised method.
+*   **`kmeans-lab.ipynb`**: Segments images by clustering pixel colors in the perceptually uniform CIELAB color space. This is a fast and effective unsupervised method.
 
 *   **`labelme-segformer.ipynb`**: Demonstrates a supervised approach.
     1.  First, it converts polygon annotations from LabelMe's JSON format into PNG masks.
