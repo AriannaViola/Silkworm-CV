@@ -32,7 +32,8 @@ Clone the repository and install the required Python packages.
 ```bash
 git clone https://github.com/AriannaViola/Silkworm-CV.git
 cd AriannaViola/Silkworm-CV
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 A `requirements.txt` file should be created with the following content:
 ```
@@ -119,8 +120,7 @@ For a deeper understanding of the models and libraries used in this project, ple
 
 
 ## 7. References 
-* 1. Zhao, M., Luo, Y., and Ouyang, Y. (2024). RepNeXt: A Fast Multi-Scale CNN using Structural Reparam-
-* eterization. arXiv.
+* 1. Zhao, M., Luo, Y., and Ouyang, Y. (2024). RepNeXt: A Fast Multi-Scale CNN using Structural Reparameterization. arXiv.
 
 * 2. Tan, M., and Le, Q. V. (2021). EfficientNetV2: Smaller Models and Faster Training. arXiv.
 
@@ -128,7 +128,6 @@ For a deeper understanding of the models and libraries used in this project, ple
 
 * 4. Rossetti, S., Sam`a, N., and Pirri, F. (2023). Removing supervision in semantic segmentation with local-global matching and area balancing. arXiv.
 
-* 5. Niu, D., Wang, X., Han, X., Lian, L., Herzig, R., and Darrell, T. (2023). Unsupervised Universal Image
-* Segmentation. arXiv.
+* 5. Niu, D., Wang, X., Han, X., Lian, L., Herzig, R., and Darrell, T. (2023). Unsupervised Universal Image Segmentation. arXiv.
 
 
