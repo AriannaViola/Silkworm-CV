@@ -9,6 +9,7 @@ The project focuses on binary classification, where the goal is to implement lig
 The primary objectives are:
 *   **Rearing Classification**: To implement and evaluate lightweight neural network architectures (such as EfficientNetV2) for binary classification to determine if silkworms require feeding.
 *   **Unsupervised Segmentation**: To apply and compare various unsupervised segmentation techniques to automatically identify and isolate silkworms, mulberry leaves, and background elements in images without needing manually annotated masks for training.
+*   *   **Performance Evaluation**: Assess classification models and segmentation outputs using quantitative metrics and qualitative analysis to determine their effectiveness in real-world conditions.
 
 The project explores and compares several state-of-the-art and classical computer vision methods:
 *   **Binary Classification**: EfficientNetV2-S, MobileVit and RepNext with Grad-CAM for model interpretability.
@@ -19,7 +20,7 @@ The project explores and compares several state-of-the-art and classical compute
     *   Watershed Algorithm
     *   KMeans Clustering in LAB color space
 
-*   **Performance Evaluation**: Assess classification models and segmentation outputs using quantitative metrics and qualitative analysis to determine their effectiveness in real-world conditions.
+
 
 ## 3. How to Install and Run
 
