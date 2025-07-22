@@ -1,10 +1,10 @@
-# Silkworm Rearing Monitoring with Computer Vision
+# Efficient Computer Vision Models for Silkworm Feeding Prediction and Habitat Analysis
 
 ## 1. Project Title
-**Automated Silkworm Feeding and Environment Analysis using Computer Vision**
+**Efficient Computer Vision Models for Silkworm Feeding Prediction and Habitat Analysis**
 
 ## 2. Description
-This project provides a suite of tools for the automated monitoring of silkworm rearing beds. Efficient silk production depends on precise feeding schedules and optimal environmental conditions. Traditional monitoring is often labor-intensive and prone to human error. This project leverages computer vision and deep learning to automate this process.
+The project focuses on binary classification, where the goal is to implement lightweight neural network architectures to determine whether the silkworms need feeding. Another objective involves unsupervised segmentation techniques designed to automatically distinguish and separate the three key elements present in the images:silkworms, mulberry leaves, and background. By applying non-supervised methods, the project seeks to extract more detailed insights from the rearing environment without requiring pixel-wise annotations for training. Both tasks will be complemented by data augmentation strategies, improving the models’ ability to generalize across different conditions and making them more robust to variations in environmental factors.
 
 The primary objectives are:
 *   **Rearing Classification**: To implement and evaluate lightweight neural network architectures (such as EfficientNetV2) for binary classification to determine if silkworms require feeding.
@@ -18,6 +18,8 @@ The project explores and compares several state-of-the-art and classical compute
     *   Segment Anything Model (SAM)
     *   Watershed Algorithm
     *   KMeans Clustering in LAB color space
+
+*   **Performance Evaluation**: Assess classification models and segmentation outputs using quantitative metrics and qualitative analysis to determine their effectiveness in real-world conditions.
 
 ## 3. How to Install and Run
 
