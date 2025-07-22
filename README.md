@@ -11,7 +11,7 @@ The primary objectives are:
 *   **Unsupervised Segmentation**: To apply and compare various unsupervised segmentation techniques to automatically identify and isolate silkworms, mulberry leaves, and background elements in images without needing manually annotated masks for training.
 
 The project explores and compares several state-of-the-art and classical computer vision methods:
-*   **Classification**: EfficientNetV2-S with Grad-CAM for model interpretability.
+*   **Binary Classification**: EfficientNetV2-S, MobileVit and RepNext with Grad-CAM for model interpretability.
 *   **Supervised Segmentation**: SegFormer trained on a small, manually annotated dataset.
 *   **Unsupervised Segmentation**:
     *   DINOv2 Feature Extraction + KMeans Clustering
